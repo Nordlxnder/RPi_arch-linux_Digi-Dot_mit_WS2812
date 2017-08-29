@@ -1,20 +1,19 @@
 # RPi_arch-linux_Digi-Dot_mit_WS2812
 
-Dies soll einen Einstieg in das Ansteuern von WS2812 LEDs unter Arch Linux 
-und einem Raspberry Zero und Python zeigen
+Dies soll einen Einstieg in das Ansteuern von WS2812 LEDs unter Arch Linux, 
+Python und einem Raspberry Zero zeigen
 
 
 HOWTO
 
-sudo pacman Syu
+	$ sudo pacman Syu
 
 
 Verkabel für 8 LEDs   
 
     Hinweis:
         bei einer größeren Anzahl von LEDs sollte man eine externe 
-Spannungsversorgung 
-        nutzen da der Raspberry nicht den benötigtn Strom liefern kann
+		Spannungsversorgung nutzen da der Raspberry nicht den benötigtn Strom liefern kann
 
     zero            Digi-Dot Booster    WS 2812
 
