@@ -3,7 +3,7 @@
 Dies soll einen Einstieg in das Ansteuern von WS2812 LEDs unter Arch Linux, 
 Python und einem Raspberry Zero zeigen
 
-Verkabelung für 8 LEDs   
+Verkabelung für 8 LEDs:   
 
     Hinweis:
         bei einer größeren Anzahl von LEDs sollte man eine externe 
@@ -25,7 +25,7 @@ Verkabelung für 8 LEDs
     MISO wird nicht benötig
 
 
-Systemeinstellungen
+Systemeinstellungen:
 
     /boot/config.txt
  
@@ -37,7 +37,7 @@ Systemeinstellungen
         spi_bcm2835             6944  0
 
  
-Rechte zuweisen für Anwender
+Rechte zuweisen für Anwender:
     
     Datei 51-i2c.rules erstellen damit alle Benutzer aus der Gruppe 
 	users darauf zugreifen können
@@ -68,7 +68,7 @@ Software:
 	--------------------------------------------------------------------
     ==> 1
   
-    dann ENTER
+dann ENTER
     
     python-spidev 3.2-1  (2016-04-21 12:20)
     (Nicht unterstütztes Paket: Potenziell gefährlich!)
@@ -83,7 +83,7 @@ Software:
 
     ==> PKGBUILD bearbeiten mit: nano
     
-    dann ENTER und die Zeile mit pkgname wie unten anpassen
+dann ENTER und die Zeile mit pkgname wie unten anpassen
     
     
     # Maintainer: Radek Podgorny <radek@podgorny.cz>
@@ -93,7 +93,7 @@ Software:
     pkgrel=1
     pkgdesc="Python bindings for Linux SPI access through spidev"
     
-    dann strg-o -->  ENTER --> strg-x
+dann strg-o -->  ENTER --> strg-x
     
     und normal den weiteren Anweisungen folgen
     
