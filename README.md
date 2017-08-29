@@ -83,7 +83,9 @@ dann ENTER
 
     ==> PKGBUILD bearbeiten mit: nano
     
-dann ENTER und die Zeile mit pkgname wie unten anpassen
+dann ENTER und die Zeile mit pkgname wie unten anpassen. Dies Anpassung ist 
+aber nur notwendig falls bei der Installation ein Fehler auf tritt. Bei 
+3.2-1 stimmte der Pfad nicht für die Installtion. 
     
     
     # Maintainer: Radek Podgorny <radek@podgorny.cz>
