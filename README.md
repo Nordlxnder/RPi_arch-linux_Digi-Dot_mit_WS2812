@@ -13,7 +13,7 @@ Verkabel für 8 LEDs
 
     Hinweis:
         bei einer größeren Anzahl von LEDs sollte man eine externe 
-		Spannungsversorgung nutzen da der Raspberry nicht den benötigtn Strom liefern kann
+	Spannungsversorgung nutzen da der Raspberry nicht den benötigtn Strom liefern kann
 
     zero            Digi-Dot Booster    WS 2812
 
@@ -42,10 +42,10 @@ Systemeinstellungen
         spi_bcm2835             6944  0
 
  
-    Rechte zuweisen für Anwender
+Rechte zuweisen für Anwender
     
         Datei 51-i2c.rules erstellen damit alle Benutzer aus der Gruppe 
-users darauf zugreifen können
+	users darauf zugreifen können
     
         /etc/udev/rules.d/51-i2c.rules
             
