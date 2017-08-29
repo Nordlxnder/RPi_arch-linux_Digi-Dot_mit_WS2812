@@ -15,10 +15,12 @@ DELAY = 0.04
 LED_COUNT = 30
 spi = spidev.SpiDev()
 
+# Starteinstellungen für die Schnittstelle
 spi.open(0, 0)  
 spi.mode = 0b00
 spi.max_speed_hz= 500000
 
+# Status  Einstellungen der Parameter für die Schnittstelle
 bpw=spi.bits_per_word
 cshigh= spi.cshigh
 lsbfirst = spi.lsbfirst
@@ -28,11 +30,14 @@ tw = spi.threewire
 print("bpw:\t\t", bpw, "\ncshigh:\t\t", cshigh , "\nlsbfirst:\t", lsbfirst)
 print("Speed:\t\t", speed,"\nMode:\t\t", mode ,"\nThreewire:\t",tw)
 
+# Grundeinstellung für die LEDs
 spi.writebytes([0xB1, LED_COUNT, 24])
 time.sleep(DELAY)
 
+# Einschalten aller LEDs
 spi.writebytes([0xA1, 255, 255, 0, 0xA5, 0xB2])
 time.sleep(2)
 
+# Ausschalten aller LEDs
 spi.writebytes([0xA1, 0,0, 0, 0xA5, 0xB2])
 time.sleep(DELAY)
