@@ -3,7 +3,7 @@
 
 '''
 	Funktiontest der SPI Schnittstelle
-	Raspberry Zero--- Digi-Dot Booster WS2812 LED
+	Raspberry Zero --- Digi-Dot Booster --- WS2812 LED
 	Die LEDs leuten für 2 s Grün-Gelb und gehen dann aus  
 '''
 
