@@ -3,12 +3,6 @@
 Dies soll einen Einstieg in das Ansteuern von WS2812 LEDs unter Arch Linux, 
 Python und einem Raspberry Zero zeigen
 
-
-HOWTO
-
-	$ sudo pacman Syu
-
-
 Verkabel für 8 LEDs   
 
     Hinweis:
@@ -57,6 +51,7 @@ Rechte zuweisen für Anwender
             crw-rw----  1 root users 153,   1 29. Aug 14:15 spidev0.1
 
 Software:
+	$ sudo pacman -Syu
 
     python-spidev  
     
