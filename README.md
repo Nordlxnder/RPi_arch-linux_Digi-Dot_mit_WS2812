@@ -44,7 +44,7 @@ Systemeinstellungen
  
 Rechte zuweisen für Anwender
     
-        Datei 51-i2c.rules erstellen damit alle Benutzer aus der Gruppe 
+    Datei 51-i2c.rules erstellen damit alle Benutzer aus der Gruppe 
 	users darauf zugreifen können
     
         /etc/udev/rules.d/51-i2c.rules
@@ -66,9 +66,9 @@ Software:
     2 aur/python2-spidev 3.1-1 (0) (0,00)
         Python2 bindings for Linux SPI access through spidev
     ==> Geben Sie die Nummern der zu installierenden Pakete an (z.B. 1 2 3 
-oder 1-3)
+	oder 1-3)
     ==> 
-----------------------------------------------------------------------------
+	--------------------------------------------------------------------
     ==> 1
   
     dann ENTER
@@ -101,11 +101,12 @@ oder 1-3)
     und normal den weiteren Anweisungen folgen
     
     
-    Testskript starten mit 
+Testskript starten mit 
+
     $ python led.py
     oder
     $ chmod 744 led.py
     $ ./led.py
     
     
-    Die LEDs sollten für 2 s leuchten
+Die LEDs sollten für 2 s leuchten
