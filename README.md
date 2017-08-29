@@ -7,7 +7,8 @@ Verkabelung für 8 LEDs
 
     Hinweis:
         bei einer größeren Anzahl von LEDs sollte man eine externe 
-	Spannungsversorgung nutzen da der Raspberry nicht den benötigtn Strom liefern kann
+	    Spannungsversorgung nutzen da der Raspberry nicht den benötig 
+        Strom liefern kann
 
     zero            Digi-Dot Booster    WS 2812
 
