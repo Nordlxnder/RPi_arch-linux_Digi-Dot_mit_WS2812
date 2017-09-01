@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
 '''
     Funktion:
        Schwellenwertanzeige mit 8 LEDs WS2812 und einem Digi-Dot Booster 
